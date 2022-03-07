@@ -1,0 +1,93 @@
+.homeWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1000px;
+    height: 800px;
+}
+.homeWrapper p{
+    font-weight: bold;
+    color: gray;
+
+}
+.firstTextBox,
+.secondTextBox{
+    display: flex;
+    flex-direction: column;
+
+}
+.firstTextBox_Button,
+.secondTextBox_Button{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+.firstTextBox_Button p,
+.secondTextBox_Button p{
+    margin: 8px;
+}
+.firstTextBox_input,
+.secondTextBox_input{
+    display: flex;
+    flex-direction: column;
+   
+}
+.firstTextBox_input span
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.timeFrameWrapper,
+.acceleratedWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    /* flex-direction: row; */
+}
+.timeFrameWrapper span,
+.acceleratedWrapper span{
+    display: flex;
+    justify-content: space-between;
+}
+.acceleratedHeading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   align-items: center;
+}
+.secondTextBox span{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+.hideDetails{
+  
+    cursor: pointer;
+    margin: 10px;
+}
+.showDetailsWrapper{
+    width: 800px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 30px;}
+.showDetailsWrapper h4{
+    margin:0;
+    padding: 0;
+}
+.showDetailsWrapper li{
+  
+    display: flex;
+    list-style-type: disc;
+    
+}
+li{
+}

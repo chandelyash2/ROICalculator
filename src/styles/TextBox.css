@@ -1,0 +1,29 @@
+.textBoxWrapper {
+  display: flex;
+  width: 680px;
+  height: 50px;
+  border-radius: 8px !important;
+  border: 3px solid rgba(184, 178, 178, 0.322) !important;
+  background-color: rgba(204, 197,  197, 0.438);
+}
+
+.textBox {
+  display: flex;
+  justify-content: flex-end !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-weight: bold !important;
+  font-size: 28px !important;
+  text-align: right !important;
+  border: none;
+}
+.textBox::placeholder {
+    margin: 2px;
+color: black;
+  font-weight: bold !important;
+  font-size: 28px !important;
+}
+

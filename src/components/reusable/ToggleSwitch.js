@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "../../styles/ToggleSwitch.css"
 const ToggleSwitch = () => {
-    const [isToggled, setIsToggled] = useState(false);
+    const [isToggled, setIsToggled] = useState(true);
     const onToggle = () => setIsToggled(!isToggled);
   return (
     <div> <label className="toggle-switch">

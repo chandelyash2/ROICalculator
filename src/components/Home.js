@@ -109,7 +109,7 @@ const Home = () => {
       </div>
       <div className="hideDetails">
         <span onClick={() => setShowDetails((prevDisplay) => !prevDisplay)}>
-          {showDetails ? <p>Hide Details ↑ </p> : <p>Show Details ↓</p>}
+          {showDetails ? <h3>Hide Details ↑ </h3> : <h3>Show Details ↓</h3>}
         </span>
         {showDetails ? <ShowDetails /> : null}
       </div>
